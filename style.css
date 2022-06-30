@@ -243,15 +243,22 @@ body{
 }
 .bg-palm { background-image: url('/images/palm.jpg');}
 .bg-melissa {background-image: url('/images/melissa.png');}
-.bg-branding {background-image: url('/images/branding.webp');}
-.bg-socialmedia {background-image: url('/images/socialmedia.webp');}
+.bg-branding {background-image: url('/images/branding.webp');
+    background-position:center;
+    height: 450px;}
+.bg-socialmedia {background-image: url('/images/socialmedia.webp');
+    background-position:center;
+    height: 450px;}
 .bg-website {
     background-image: url('/images/websitetemplate.webp');
     background-position:center;
     height: 450px;
 }
 
-.shape {border-top-left-radius: 20rem;}
+.shape-left{border-top-left-radius: 20rem;}
+.shape-right{border-top-right-radius: 20rem;}
+
+
  /* General CSS Responsive Styles (Apply everywhere unless overridden) */ 
 
  .show-xs, 
