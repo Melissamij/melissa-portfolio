@@ -243,7 +243,15 @@ body{
 }
 .bg-palm { background-image: url('/images/palm.jpg');}
 .bg-melissa {background-image: url('/images/melissa.png');}
+.bg-branding {background-image: url('/images/branding.webp');}
+.bg-socialmedia {background-image: url('/images/socialmedia.webp');}
+.bg-website {
+    background-image: url('/images/websitetemplate.webp');
+    background-position:center;
+    height: 450px;
+}
 
+.shape {border-top-left-radius: 20rem;}
  /* General CSS Responsive Styles (Apply everywhere unless overridden) */ 
 
  .show-xs, 
