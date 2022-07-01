@@ -303,7 +303,9 @@ body{
     background-position: center;
 }
 .bg-palm { background-image: url('/images/palm.jpg');}
-.bg-melissa {background-image: url('/images/melissa.png');}
+.bg-melissa {background-image: url('/images/melissa.png');
+  background-position:center;
+  height: 450px;}
 .bg-branding {background-image: url('/images/branding.webp');
     background-position:center;
     height: 450px;}
