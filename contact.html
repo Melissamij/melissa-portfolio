@@ -15,51 +15,53 @@ layout: default
 
         <form class="grid-center" action="#" method="POST">
 
-            <div class="col-6_sm-12">
+            <div class="col-6_sm-12-middle">
                 <label for="_name">FIRST NAME*</label>
                 <input type="text" name="_name" id="_name" required >
             </div>
-            <div class="col-6_sm-12">
+            <div class="col-6_sm-12-middle">
                 <label for="_last-name">LAST NAME*</label>
                 <input type="text" name="_lastname" id="_last-name" required >
             </div>
-            <div class="col-12">
+            <div class="col-12-middle">
                 <label>E-MAIL*</label>
                 <input type="email" name="_replyto" id="_replyto" required >
             </div>
-            <div class="col-12">
+            <div class="col-12-middle">
                 <label for="_website">WEBSITE ( If applicable)</label>
                 <input type="text" name="_website" id="_website" >
             </div>
-            <div class="col-12">
+            <div class="col-12-middle">
                 <label for="_instagram">INSTAGRAM HANDLE</label>
                 <input type="text" name="_instagram" id="_instagram" >
             </div>
-            <div class="col-12">
+            <div class="col-12-middle">
                 <label for="_business">WHAT DOES YOUR BUSINESS DO?</label>
                 <input type="text" name="_business" id="_business" >
             </div>
-            <div class="col-12">
+            <div class="col-12-middle">
                 <label for="message">EXPLAIN ME WHAT YOU ARE LOOKING FOR*.</label>
                 <textarea type="message" id="message"></textarea>
             </div>
-            <div class="col-12">
+            <div class="col-12-middle">
                 <label for="message">WHY DO YOU THINK I WILL BE A GOOD FIT FOR YOU?</label>
                 <textarea type="message" id="message"></textarea>
             </div>
-            <div class="col-12">
+            <div class="col-12-middle">
                 <label for="date">WHAT DATE WOULD YOU LIKE TO LAUNCH BY?</label>
+                <input type="date">
             </div>
-            <div clas="col-12">
+            
+            <div class="col-12-middle">
                 <label for="checkbox">WHAT SERVICES ARE YOU LOOKING FOR?</label>
-                <input type="checkbox">
-                <label>SQUARESPACE WEBSITE</label>
-                <input type="checkbox">
-                <label>E-COMMERCE (SHOPIFY) WEBSITE</label>
-                <input type="checkbox">
-                <label>DESIGN INTENSIVE</label>
-                <input type="checkbox">
-                <label>CUSTOM CODED WEBSITE</label>
+                <input type="checkbox" id="squarespace" name="squarespace" value="squarespace">
+                <label for="squarespace">SQUARESPACE WEBSITE </label><br>
+                <input type="checkbox" id="ecommerce" name="ecommerce" value="ecommerce">
+                <label for="ecommerce">E-COMMERCE (SHOPIFY) WEBSITE </label><br>
+                <input type="checkbox" id="design" name="design" value="design">
+                <label for="design">DESIGN INTENSIVE</label><br>
+                <input type="checkbox" id="custom" name="custom" value="custom">
+                <label for="custom">CUSTOM CODED WEBSITE</label><br>
             </div>
             <div class="col-12">
             <button type="submit" class="button">SUBMIT</button>
