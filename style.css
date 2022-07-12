@@ -382,8 +382,12 @@ label, .checkboxes {
     background-position:center;
     height: 450px;
 }
-.macbook { background-image: url('/images/macbook.jpeg');}
-.responsive {background-image: url('/images/responsive.png');}
+.bg-macbook { background-image: url('/images/macbook.jpeg');
+  background-position:center;
+  height: 450px;}
+.bg-responsive {background-image: url('/images/responsive.png');
+  background-position:center;
+  height: 450px;}
 
 .shape-left{border-top-left-radius: 20rem;}
 .shape-right{border-top-right-radius: 20rem;}
