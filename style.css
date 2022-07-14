@@ -234,9 +234,13 @@ body{
       /*width: 400px;*/
       flex: 1;
     }
-.click:hover {
- color:#767964;
-}
+    
+    .click:hover {
+      background-color: #767964;
+      color: #FAF6F0;
+      font-weight: 500;
+    }
+
 /* Footer */
 .inline a {
     display:inline-block;
@@ -390,6 +394,10 @@ label, .checkboxes {
 .bg-responsive {background-image: url('/images/responsive.png');
   background-position:center;
   height: 450px;}
+  .bg-webdev {
+    background-image: url('/images/webdev.png');
+    background-position: center;
+  }
 
 .shape-left{border-top-left-radius: 20rem;}
 .shape-right{border-top-right-radius: 20rem;}
