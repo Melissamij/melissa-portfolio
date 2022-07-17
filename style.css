@@ -242,7 +242,8 @@ body{
       font-weight: 500;
     }
 /* ----------Services Cards ---------*/
-.no-bullets { list-style:none; }
+.no-bullets { list-style:none;
+font-weight: 300; }
 /* Used to remove dot-points from a list */
 .card {
   padding: 2rem;
@@ -287,6 +288,12 @@ body{
   
   .card {
     display: table-cell; /* Make elements inside the container behave like table cells */
+  }
+
+  .our-benefits h4 {
+    font-weight: bold;
+    padding-bottom: 1rem;
+    font-size: larger;
   }
 /*----------- Footer-------------- */
 .inline a {
