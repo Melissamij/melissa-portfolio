@@ -86,7 +86,7 @@ font:
 .margin-tb { margin-top: 5%; margin-bottom: 5%; }
 .margin-lr { margin-left: 5%; margin-right: 5%; }
 
-/* utility classes text */
+/*-------------------------------------------------- utility classes text */
 .light-text { color: #FAF6F0; } 
 
 .left   { text-align: left; }
@@ -113,7 +113,7 @@ font:
 .font-weight-normal{font-weight: 400;}
 .font-weight-bold{font-weight: 800;}
 
-/* General CSS Responsive Styles */
+/*-------------------------------------------- General CSS Responsive Styles */
 
 /* Default Responsive Styles (Dekstop and below) */
 .mob-show {
@@ -135,7 +135,7 @@ font:
   .bg-light {background-color: #FAF6F0;}
   .bg-dark {background-color: #767964;}
 
-  /* ------ Typography Styles-----*/
+  /* ------ ----------------------------------------Typography Styles-----*/
 body{ 
     font-family: 'Overpass', sans-serif;
     color: #4A4444;}
@@ -176,7 +176,7 @@ body{
   }
   
   
-  /* header */
+  /* ------------------------------------header */
     header{
         background-color: #FAF6F0;
         padding: 1% 5%;
@@ -210,9 +210,14 @@ body{
       background-color: white;
       color: #F7D1CD;
     }
-   /* Mobile Menu Styles */
+   /* -------------------------------------Mobile Menu Styles */
 .mobile-menu {
-  color: #4C1E4F; 
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-weight: 400;
+  font-size: 2.5rem;
+  line-height: 1.1;
+  margin-bottom: 1rem;
+  color: #4A4444; 
   padding: 5%;
   position: fixed; 
   top: 0;
@@ -220,7 +225,7 @@ body{
   left: 0;
   right: 0;
   text-align: center;
-  background-color: #F7D1CD;
+  background-color: #FAF6F0;
   z-index: 1;
 }
 
