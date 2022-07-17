@@ -452,7 +452,11 @@ label, .checkboxes {
     background-image: url('/images/webdev.png');
     background-position: center;
   }
-
+  .bg-bio {
+    background-image: url('/images/bio.png');
+    background-position: center;
+  }
+.img-bio {max-height: 400px;}
 .shape-left{border-top-left-radius: 20rem;}
 .shape-right{border-top-right-radius: 20rem;}
 
