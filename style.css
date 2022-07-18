@@ -87,6 +87,7 @@ font:
 .margin-lr { margin-left: 5%; margin-right: 5%; }
 
 /*-------------------------------------------------- utility classes text */
+
 .light-text { color: #FAF6F0; } 
 
 .left   { text-align: left; }
@@ -174,7 +175,7 @@ body{
   a:hover{
       color: #767964;
   }
-  
+  ul { margin-bottom: 3%;}
   
   /* ------------------------------------header */
     header{
@@ -486,7 +487,8 @@ label, .checkboxes {
 }
 .bg-macbook { background-image: url('/images/macbook.jpeg');
   background-position:center;
-  height: 450px;}
+  height: 450px;
+  }
 .bg-responsive {background-image: url('/images/responsive.png');
   background-position:center;
   height: 450px;}
@@ -553,7 +555,8 @@ label, .checkboxes {
    .sm-margin-l-0 { margin-left: 0; }
    .sm-margin-r-0 { margin-right: 0; }
    .logo h2 {font-size: 2rem;}
-   .column-reverse { flex-direction: column-reverse; }
+   .column-reverse {
+     flex-direction: column-reverse; }
   
    .header-nav { min-height: 50vh;}
    .mobile-menu a{ 
