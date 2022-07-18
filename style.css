@@ -556,7 +556,7 @@ label, .checkboxes {
    .sm-margin-r-0 { margin-right: 0; }
    .logo h2 {font-size: 2rem;}
    .column-reverse {
-     flex-direction: column-reverse; }
+     flex-direction: column-reverse;}
   
    .header-nav { min-height: 50vh;}
    .mobile-menu a{ 
