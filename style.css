@@ -279,11 +279,11 @@ margin-bottom: 0;
       flex: 1;
     }
     
-    .click:hover {
+    /*.click:hover {
       background-color: #767964;
       color: #FAF6F0;
       font-weight: 500;
-    }
+    }*/
 /* ----------Services Cards ---------*/
 .no-bullets { list-style:none;
 font-weight: 300; }
