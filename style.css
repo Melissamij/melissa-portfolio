@@ -469,25 +469,26 @@ label, .checkboxes {
     background-image: url('/images/palm.jpg');
     background-size: cover;
     background-position: center;
+    min-height: 30rem;
+
 }
 .bg-palm { background-image: url('/images/palm.jpg');}
 .bg-melissa {background-image: url('/images/melissa.png');
   background-position: unset;
-  height: 450px;}
+ }
 .bg-branding {background-image: url('/images/branding.webp');
-    background-position:center;
-    height: 450px;}
+    background-position:center;}
 .bg-socialmedia {background-image: url('/images/socialmedia.webp');
     background-position:center;
-    height: 450px;}
+ }
 .bg-website {
     background-image: url('/images/websitetemplate.webp');
     background-position:center;
-    height: 450px;
+
 }
 .bg-macbook { background-image: url('/images/macbook.jpeg');
   background-position:center;
-  height: 450px;
+ 
   }
 .bg-responsive {background-image: url('/images/responsive.png');
   background-position:center;
