@@ -1,6 +1,14 @@
 ---
 layout: default
 title: web development
+card:
+- heading: Custom Website
+  price: from 500€
+  description: What's included:
+  description-html: Lorem 
+- heading: Menu 1
+  prices: 30€
+  description-html:
 ---
 
 
@@ -22,10 +30,34 @@ title: web development
 
 <!-------- cards --------->
 <section class="light-bg centered padded">
+  {% for item in page.cards %}
     <h2 class="center"> Amazing Website. </h2>
     <p class="center">Your Website is your front window shop online, the first impression customers gets of your brand. Are you ready to stand out?</p>
     <div class="grid padded-1">
   
+      <div class="col-6_sm-12 padded-1 col-container">
+        <div class="pricing card">
+          <p class="pricing-name center"> {{item.heading}} </p>
+          <p class="price center"> {{item.price}} </p>
+          <p>{{item.description}}</p>
+          <div>{{item.description-html}}</div>
+          <!---
+          <ul class="no-bullets">
+            <li> + Mockup Design </li>
+            <li> + Home Page </li>
+            <li> + About / Team Page </li>
+            <li> + Contact Page </li>
+            <li> + Custom  HTML, CSS & JS</li>
+            <li> + Embedded social media </li>
+            <li> + Email service embed </li>
+            <li> + Pop up alert </li>
+            <li> + Mobile Responsive + Basic SEO optimization </li>
+            <li> + Website usage video tutorials </li>
+          </ul> -->
+          <a href="/contact.html" class="button-cards"> Book a Call </a>
+        </div>
+      </div>
+  <!---
       <div class="col-6_sm-12 padded-1 col-container">
         <div class="pricing card">
           <p class="pricing-name center"> Custom Website </p>
@@ -46,7 +78,7 @@ title: web development
           <a href="/contact.html" class="button-cards"> Book a Call </a>
         </div>
       </div>
-  
+    -->
       <div class="col-6_sm-12 padded-1 col-container">
         <div class="pricing card">
           <p class="pricing-name center"> Shopify E-Shop </p>
