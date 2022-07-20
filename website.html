@@ -6,9 +6,7 @@ card:
   price: from 500€
   description: What's included
   description-html: Lorem 
-- heading: Menu 1
-  prices: 30€
-  description-html:
+
 ---
 
 
@@ -30,11 +28,11 @@ card:
 
 <!-------- cards --------->
 <section class="light-bg centered padded">
-  {% for item in page.card %}
+ 
     <h2 class="center"> Amazing Website. </h2>
     <p class="center">Your Website is your front window shop online, the first impression customers gets of your brand. Are you ready to stand out?</p>
     <div class="grid padded-1">
-  
+      {% for item in page.card %}
       <div class="col-6_sm-12 padded-1 col-container">
         <div class="pricing card">
           <p class="pricing-name center"> {{item.heading}} </p>
