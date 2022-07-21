@@ -7,41 +7,9 @@
      <!-------- BODY --------------------->
      <body>
         {{ content }}
-    <!----------------- FOOter-------->
 
-    <footer class="grid bg-light">
-        <!-- column -->
-        <div class="col-5_sm-12 padded">
-          <h2 class="logo"> Let's Connect </h2>
-          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-          <form class="email-signup" action="https://formspree.io/your@email.com" method="POST">
-            <input type="text" name="name" placeholder="Your Name">
-            <input type="email" name="_replyto" placeholder="Your Email">
-            <input type="submit" value="Send" class="button">
-          </form>
-        </div>
-        <div class="col-1 sm-hidden"></div>
-        <!-- column -->
-        <div class="col-6_sm-12-middle padded">
-          <nav class="inline">
-            <a href="/services.html"> Services</a>|
-            <a href="/about.html"> About </a>|
-            <a href="/contact.html"> Contact </a>
-          </nav>
-          <nav class="inline socials">
-            <a href="#">
-              <i class="fab fa-instagram"></i>
-            </a>
-          </nav>
-        </div>
-        <p class="col-12-middle center">Copywrite @mélissamija</p>
-      </footer>
+        {% include footer.html %}
 
-       <!--------------------- Add jQuery -------------------->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<!------------- JS------>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<!-------------- custom javascript files -------------->
-<script src="/scripts.js"></script> 
+        {% include body-scripts.html %}
     </body>
 </html>
