@@ -1,6 +1,18 @@
-<head>
+
      
-    <!-- Viewport meta tag -->
+
+    <!--------------------- SEO Metadata ----------------------->
+<title> {{ page.seo.title | default: site.data.site-settings.seo.title }} </title> 
+<meta name="description" content="{{ page.seo.description | default: site.data.site-settings.seo.description }}">
+<meta name="keywords" content="{{ page.seo.keywords | default: site.data.site-settings.seo.keywords }}">
+
+{% if page.seo.hide-from-google == true %}
+    <meta name="robots" content="noindex, nofollow">
+{% else %}
+    <meta name="robots" content="index, follow">
+{% endif %}
+
+ <!-- Viewport meta tag -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!---- Icon favicon-->
@@ -16,8 +28,7 @@
      
      
      
-       <!-- The title for SEO & browser tabs -->
-       <title> Mélissa Studio </title>
+
     <!-- Gridlex -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
 
@@ -36,4 +47,4 @@
     <!-- My own custom stylesheet -->
     <link rel="stylesheet" href="/style.css">
 
-</head>
+
