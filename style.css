@@ -94,8 +94,8 @@ font:
 .center { text-align: center; }
 .right  { text-align: right; }
 
-
-.featured-text{ color: #FAF6F0;}
+.dark-text {color:#4A4444;}
+.featured-text{ color: #767964;}
 .featured-text-white{ color: white;}
 .subtle { font-weight: 100;}
 
