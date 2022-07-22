@@ -475,12 +475,27 @@ label, .checkboxes {
 
 }
 .bg-palm { background-image: url('/images/palm.jpg');}
-.bg-melissa {background-image: url('/images/melissa.png');
+.bg-melissa {
+  background-image: url('/images/melissa.png');
   background-position: unset;
  }
-.bg-branding {background-image: url('/images/branding.webp');
+.bg-branding {
+    background-image: url('/images/branding.webp');
     background-position:center;}
-.bg-socialmedia {background-image: url('/images/socialmedia.webp');
+.bg-coffee { 
+  background-image: url('/images/coffee.jpg');
+  background-position: center;}
+.bg-meeting {
+  background-image: url('/images/meeting.jpg');
+  background-position: center;
+}
+.bg-yoga-studio {
+  background-image: url('/images/yoga-studio.jpeg');
+  background-position: center;
+}
+
+.bg-socialmedia {
+    background-image: url('/images/socialmedia.webp');
     background-position:center;
  }
 .bg-website {
@@ -488,11 +503,13 @@ label, .checkboxes {
     background-position:center;
 
 }
-.bg-macbook { background-image: url('/images/macbook.jpeg');
+.bg-macbook { 
+  background-image: url('/images/macbook.jpeg');
   background-position:center;
  
   }
-.bg-responsive {background-image: url('/images/responsive.png');
+.bg-responsive {
+  background-image: url('/images/responsive.png');
   background-position:center;
   height: 450px;}
 .bg-webdev {
