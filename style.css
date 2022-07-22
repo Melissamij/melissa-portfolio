@@ -88,15 +88,15 @@ font:
 
 /*-------------------------------------------------- utility classes text */
 
-.light-text { color: #FAF6F0; } 
+.light-text { color: var(--light-text); } 
 
 .left   { text-align: left; }
 .center { text-align: center; }
 .right  { text-align: right; }
 
-.dark-text {color:#4A4444;}
-.featured-text{ color: #767964;}
-.featured-text-white{ color: white;}
+.dark-text {color: var(--dark-text);}
+.featured-text{ color: var(--featured-text);}
+.featured-text-white{ color: var(--featured-text-white);}
 .subtle { font-weight: 100;}
 
 .small-text{font-size: 1rem;}
@@ -135,8 +135,8 @@ font:
   .bg-pos-r { background-position: right; }
 
   /*  Background colors */
-  .bg-light {background-color: #FAF6F0;}
-  .bg-dark {background-color: #767964;}
+  .bg-light {background-color: var(--bg-light);}
+  .bg-dark {background-color: var(--bg-dark);}
 
   /* ------ ----------------------------------------Typography Styles-----*/
 body{ 
