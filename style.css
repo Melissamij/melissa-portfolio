@@ -467,6 +467,10 @@ footer nav a {
   font-size: 0.9rem;
 }
 
+footer nav a:hover {
+  color:#767964;
+}
+
 /* Background Images */
 
 .bg-image {
