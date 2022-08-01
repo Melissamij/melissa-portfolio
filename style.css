@@ -466,6 +466,7 @@ label, .checkboxes {
 footer nav a {
   display:block;
   padding: 0.25rem;
+  font-weight: 200;
 }
 
 footer nav a:hover {
