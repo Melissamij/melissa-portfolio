@@ -159,7 +159,9 @@ body{
       margin-bottom: 1rem;
       color:#4A4444;
   }
-  h3, h4 {line-height: 1;
+  h3, h4 {
+    font-family:'Fira Sans Condensed', sans-serif;
+    line-height: 1;
     font-size:1.5rem;
     color:#4A4444;}
   
