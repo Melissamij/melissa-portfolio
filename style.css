@@ -16,8 +16,7 @@ font:
 } 
 
  [class*=grid] {
-   margin:0;
-  align-self: auto;}
+   margin:0;}
 
  img { max-width: 100%; }
 
@@ -465,6 +464,10 @@ label, .checkboxes {
      }
    }
   /*----------- Footer-------------- */
+
+footer {
+  align-items: normal;
+}
 footer nav a {
   display:block;
   padding: 0.25rem;
