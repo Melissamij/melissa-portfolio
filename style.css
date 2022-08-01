@@ -470,7 +470,9 @@ footer nav a {
 footer nav a:hover {
   color:#767964;
 }
-
+footer h4 {
+  padding-bottom: 1rem;
+}
 /* Background Images */
 
 .bg-image {
