@@ -15,7 +15,9 @@ font:
     box-sizing: border-box;
 } 
 
- [class*=grid] {margin:0;}
+ [class*=grid] {
+   margin:0;
+  align-self: auto;}
 
  img { max-width: 100%; }
 
