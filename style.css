@@ -467,6 +467,7 @@ footer nav a {
   display:block;
   padding: 0.25rem;
   font-weight: 200;
+  text-align: top;
 }
 
 footer nav a:hover {
