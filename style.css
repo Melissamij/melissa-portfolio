@@ -496,10 +496,11 @@ footer nav a {
 }
 
 footer nav a:hover {
-  color:#767964;
+  color: #4A4444;
 }
 footer h4 {
   padding-bottom: 1rem;
+  color:#FAF6F0;
 }
 .sub-footer { padding-top: 5%;}
 .sub-footer p {
