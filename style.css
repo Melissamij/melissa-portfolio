@@ -200,9 +200,7 @@ body{
   a:hover{
       color: #767964;
   }
-  footer a:hover {
-    color:#4A4444;
-  }
+  
   ul { margin-bottom: 3%;}
   
   /* ------------------------------------header */
