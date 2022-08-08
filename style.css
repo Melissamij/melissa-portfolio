@@ -634,6 +634,7 @@ background-position: cover;}
    .sm-margin-l-0 { margin-left: 0; }
    .sm-margin-r-0 { margin-right: 0; }
    .logo h2 {font-size: 2rem;}
+   .logo-beige { width: 200px;}
    .column-reverse {
      flex-direction: column-reverse;}
   
