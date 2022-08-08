@@ -487,6 +487,16 @@ footer h4 {
     min-height: 30rem;
 
 }
+.logo-transparent {
+  background-image: url(/images/logo-transparent.png);
+  background-size: cover;
+  background-position: center;
+}
+.logo-beige {
+  background-image: url(/images/logo-beige.png);
+  background-size: cover;
+  background-position: center;
+}
 .bg-palm { background-image: url('/images/palm.jpg');
 background-position: cover;}
 .bg-melissa {
