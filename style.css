@@ -273,7 +273,7 @@ top: 1.5rem;
 z-index: 2;
 }
 .hamburger-button.active {
-color: inherit;
+color: #767964;
 }
 
 .hamburger-button i {
