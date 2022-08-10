@@ -25,7 +25,8 @@ seo:
 <section class=" grid bg-light padded">
     <div class="col-12 padded">
         <h3 class="price">from 700€</h3>
-        <h2>Single Page Website</h2>
+        <button class="collapsible">Single Page Website</button>
+        <div class="content">
         <p> You need to show an event, show your portfolio, or simply share what you do and your informations ? Then the Single page website is for you!</p>
         <p>Perfect for entrepreneur & small business, it makes you visible online, pretty important nowdays.</p>
         <p>You will get a single page. No menu, just categories to show what you need. For exemple, your contact info, location, what you do, a gallery.</p>
@@ -73,5 +74,24 @@ seo:
             <p> I'll explain you how to change the content of your page, text & images.</p>
         </div>
     </div>
+    </div>
 </section>
+
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight){
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        } 
+      });
+    }
+    </script>
+    
 
