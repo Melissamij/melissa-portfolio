@@ -17,4 +17,3 @@ lightGallery(document.getElementById('lightgallery'), {
 });
 
 
-// collaps
