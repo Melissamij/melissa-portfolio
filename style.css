@@ -315,39 +315,29 @@ margin-bottom: 0;
 
 /*-------------- Page Service Web collaps  -------*/
 .collapsible {
-  color: #4A4444;
   cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
   text-align: left;
-  outline: none;
-  font-size: 15px;
 }
-
 .active, .collapsible:hover {
-  color:#767964;
+  background-color: #767964;
 }
-
-.collapsible:after {
-  content: '\002B';
- 
-  font-weight: bold;
+.collapsible::after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #4A4444;
   float: right;
   margin-left: 5px;
 }
-
 .active:after {
-  content: "\2212";
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
-
 .content {
   padding: 0 18px;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-
 }
+
 
 /* ----------Services Cards ---------*/
 .no-bullets { list-style:none;
