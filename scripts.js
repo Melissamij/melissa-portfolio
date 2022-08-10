@@ -18,7 +18,7 @@ lightGallery(document.getElementById('lightgallery'), {
 
 
 // collaps
-var coll = document.getElementsByClassName("collapsible");
+var coll = document.getElementsById("collapsible");
 var i;
 
 for (i = 0; i < coll.length; i++) {
