@@ -314,22 +314,7 @@ margin-bottom: 0;
 
 
 /*-------------- Page Service Web collaps  -------*/
-.collapsible {
-  cursor: pointer;
-  text-align: left;
-  width: 100%;
-}
-.active, .collapsible:hover {
-  color: #767964;
-}
 
-.content {
-  display: none;
-  padding: 0 18px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-}
 
 
 /* ----------Services Cards ---------*/
