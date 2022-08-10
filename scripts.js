@@ -18,8 +18,11 @@ lightGallery(document.getElementById('lightgallery'), {
 
 
 // collaps
-var coll = document.getElementsById("collapsible");
+var coll = document.getElementsById('collapsible');
 var i;
+$('.collapsible').click(function(){
+  console.log("hqlo");
+});
 
 for (i = 0; i < coll.length; i++) {
   coll[i].addEventListener("click", function() {
