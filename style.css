@@ -331,7 +331,7 @@ margin-bottom: 0;
 
 .collapsible:after {
   content: '\002B';
-  color: #767964;
+ 
   font-weight: bold;
   float: right;
   margin-left: 5px;
