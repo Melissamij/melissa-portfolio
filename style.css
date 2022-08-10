@@ -326,8 +326,7 @@ margin-bottom: 0;
 }
 
 .active, .collapsible:hover {
-  background-color: #767964;
-  color:#FAF6F0;
+  color:#767964;
 }
 
 .collapsible:after {
