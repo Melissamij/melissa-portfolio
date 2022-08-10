@@ -317,12 +317,14 @@ margin-bottom: 0;
 .collapsible {
   cursor: pointer;
   text-align: left;
+  width: 100%;
 }
 .active, .collapsible:hover {
   color: #767964;
 }
 
 .content {
+  display: none;
   padding: 0 18px;
   max-height: 0;
   overflow: hidden;
