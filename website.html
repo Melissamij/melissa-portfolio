@@ -51,9 +51,9 @@ seo:
 <div>
   <h2>Website that stand out and perform</h2>
 </div>
-<div class="collapsible">
-  <h2>Single Page Website</h2>
-</div>
+
+  <h2 class="collapsible">Single Page Website</h2>
+
 <div class="content">
   <p>
     You need to show an event, show your portfolio, or simply share what you do and your informations ? Then the Single page website is for you!
@@ -205,10 +205,10 @@ seo:
         coll[i].addEventListener("click", function() {
           this.classList.toggle("active");
           var content = this.nextElementSibling;
-          if (content.style.maxHeight){
-            content.style.maxHeight = null;
+          if (content.style.display === "block") {
+            content.style.display = "none";
           } else {
-            content.style.maxHeight = content.scrollHeight + "px";
+            content.style.display = "block";
           }
         });
       }
