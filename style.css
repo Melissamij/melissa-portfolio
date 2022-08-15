@@ -306,11 +306,6 @@ margin-bottom: 0;
       flex: 1;
     }
     
-    /*.click:hover {
-      background-color: #767964;
-      color: #FAF6F0;
-      font-weight: 500;
-    }*/
 
 
 /*-------------- Page Service Web collaps  -------*/
@@ -491,6 +486,10 @@ label, .checkboxes {
        max-width: 100%;
      }
    }
+
+video {
+  max-width: 100%;
+}
   /*----------- Footer-------------- */
 
 footer nav a {
