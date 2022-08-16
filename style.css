@@ -166,7 +166,7 @@ body{
   
   h1{
     font-family:'Fira Sans Condensed', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     color: #4A4444;
     font-size: 3rem;
   
@@ -174,7 +174,7 @@ body{
   
   h2{
       font-family: 'Fira Sans Condensed', sans-serif;
-      font-weight: 400;
+      font-weight: 300;
       font-size: 2.5rem;
       line-height: 1.1;
       margin-bottom: 1rem;
@@ -184,10 +184,10 @@ body{
     font-family:'Fira Sans Condensed', sans-serif;
     line-height: 1;
     font-size:1.5rem;
-    font-weight: 400;
+    font-weight: 300;
     color:#4A4444;}
   
-  p {font-weight:200;
+  p {font-weight:300;
     line-height: 1.5;
     margin-bottom: 1rem;}
   
@@ -261,7 +261,7 @@ display:block;
 color: #FAF6F0;
 font-size: 1.2rem;
 padding: 0.5rem;
-font-weight: 400;
+font-weight: 600;
 }
 .mobile-menu a:hover{ color: #4A4444;}
 
