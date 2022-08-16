@@ -29,13 +29,13 @@ document.addEventListener("scroll", () => {
 
 // Go to top 
 const goToTop = () => {
-  document.body.scrollIntoView();
+document.body.scrollIntoView();
 };
 
-backToTopButton.addEventListener("click", goToTop)
+backToTopButton.addEventListener("click", goToTopArrow)
 
 // making scroll behavior smooth
-const goToTop = () => {
+const goToTopArrow = () => {
   document.body.scrollIntoView({
     behavior: "smooth",
   });
