@@ -242,7 +242,6 @@ body{
   font-family: 'Fira Sans Condensed', sans-serif;
   display: none;
   background-color: #767964;
-  font-weight: 400;
   font-size: 2rem;
   line-height: 1.1;
   margin-bottom: 1rem;
@@ -262,6 +261,7 @@ display:block;
 color: #FAF6F0;
 font-size: 1.2rem;
 padding: 0.5rem;
+font-weight: 300;
 }
 .mobile-menu a:hover{ color: #4A4444;}
 
