@@ -311,7 +311,7 @@ margin-bottom: 0;
     
 /*------------BAck to top arrow------------ */
 
-.back-to-top {
+a .back-to-top {
   position: fixed;
   right: 2rem;
   bottom: 2rem;
