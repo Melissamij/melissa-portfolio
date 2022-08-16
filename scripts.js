@@ -1,6 +1,6 @@
 
   $('.hamburger-button').click(function(){
-    $('.mobile-menu').slideToggle(300);
+    $('.mobile-menu').slideToggle(500);
     $(this).toggleClass('active');
   });
 
