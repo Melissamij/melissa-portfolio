@@ -240,24 +240,27 @@ body{
    /* -------------------------------------Mobile Menu Styles */
 .mobile-menu {
   font-family: 'Fira Sans Condensed', sans-serif;
-  font-weight: lighter;
-  font-size: 2.5rem;
+  display: none;
+  background-color: #767964;
+  font-weight: 300;
+  font-size: 2rem;
   line-height: 1.1;
   margin-bottom: 1rem;
-  color: #767964; 
+  color: #FAF6F0; 
   padding: 5%;
   position: fixed; 
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  text-align: center;
-  background-color: #FAF6F0;
+  text-align: left;
+  
   z-index: 1;
 }
 
 .mobile-menu a {
-display: block;
+display:block;
+color: #FAF6F0;
 font-size: 1.2rem;
 padding: 0.5rem;
 }
@@ -273,7 +276,7 @@ top: 1.5rem;
 z-index: 2;
 }
 .hamburger-button.active {
-color: #767964;
+color: #FAF6F0;
 }
 
 .hamburger-button i {
