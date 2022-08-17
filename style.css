@@ -241,7 +241,6 @@ body{
 .mobile-menu {
   font-family: 'Fira Sans Condensed', sans-serif;
   display: none;
-  height: fit-content;
   background-color: #767964;
   font-size: 2rem;
   line-height: 1.1;
