@@ -614,6 +614,7 @@ background-position: cover;}
 .bg-social{
     background-image: url('/images/social.jpg');
     background-position:center;
+    height: 450px;
  }
 .bg-website {
     background-image: url('/images/websitetemplate.webp');
@@ -638,7 +639,7 @@ background-position: cover;}
     background-position: center;
   }
 
-.img-social {max-height: 400px;}
+.img-bio {max-height: 400px;}
 .shape-left{border-top-left-radius: 20rem;}
 .shape-right{border-top-right-radius: 20rem;}
 
