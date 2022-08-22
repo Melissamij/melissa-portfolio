@@ -13,6 +13,10 @@ seo:
 _comments:
   title: Max 70 characters
   social_image: landscape 1200 x 600px
+service:
+  - heading:
+    description:
+    list-html
 ---
 <!-------------- Banner Section------->
         <section class=" grid bg-image bg-palm padded tall-70">
@@ -26,15 +30,19 @@ _comments:
         <!---------- Section Services --------->
 <!---- ADD FELX FLIP -->
         <section class="padded bg-light ">
-
-                <!----- Custume website-->
-                <div class="col-12-middle center">
+            <div class="col-12-middle center">
                     <h2>What I Offer...</h2>
                 </div>
+
+                <!----- Custume website-->
                 <div class="grid padded column-reverse">
                 <div class=" col-6_sm-12 bg-image bg-responsive shape-left"></div>
                 <div class="col-6_sm-12 padded">
-                    <hr size="2px" width="200px" color="black" /><h2>WEBSITE</h2>
+                    {% for item in page.service %}
+                    <hr size="2px" width="200px" color="black" /><h2>{{item.heading}}</h2>
+                    <p>{{item.description}}</p>
+                    <ul>{{item.list-html}}</ul>
+                   <!---- <hr size="2px" width="200px" color="black" /><h2>WEBSITE</h2>
                     <p>All our website are Responsive to Tablets & Phones</p>
                     <ul>
                         <li>Single page Website</li>
@@ -42,8 +50,9 @@ _comments:
                         <li>E-commerce Shopify</li>
                         <li>Custom Website</li>
                         <li>On-going Maintenance</li>
-                    </ul>
+                    </ul> --->
                     <a href="/website.html" class="button"> More</a>
+                    {% endfor %}
                 </div>
             </div>
                     <!------- Design-->
