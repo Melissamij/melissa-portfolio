@@ -13,15 +13,6 @@ seo:
 _comments:
   title: Max 70 characters
   social_image: landscape 1200 x 600px
-service:
-  - featured_image: /images/responsive.png
-    heading: WEBSITE
-    description: All our website are Responsive to Tablets & Phones.
-    list-html: >-
-      <ul><li>Single page Website</li><li>Window Shop ( 5
-      pages)</li><li>E-Commerce Shopify</li><li>Custom Website</li><li>On-going
-      Maintenance</li></ul>
-
 ---
 <!-------------- Banner Section------->
         <section class=" grid bg-image bg-palm padded tall-70">
@@ -41,49 +32,44 @@ service:
 
                 <!----- Custume website-->
                 <div class="grid padded column-reverse">
-                    {% for item in page.service %}
-                <div class=" col-6_sm-12 bg-image shape-left" style="background-image: url('{{item.featured_image}}')"></div>
+                <div class=" col-6_sm-12 bg-image bg-responsive shape-left"></div>
                 
                 <div class="col-6_sm-12 padded">
-                    <hr size="2px" width="200px" color="black" /><h2>{{item.heading}}</h2>
-                    <p>{{item.description}}</p>
-                    <ul>{{item.list-html}}</ul>
-                   <!---- <hr size="2px" width="200px" color="black" /><h2>WEBSITE</h2>
-                    <p>All our website are Responsive to Tablets & Phones</p>
-                    <ul>
+                   <hr size="2px" width="200px" color="black" /><h2 class="editable">WEBSITE</h2>
+                    <p class="editable">All our website are Responsive to Tablets & Phones</p>
+                    <ul class="editable">
                         <li>Single page Website</li>
                         <li>Window Shop ( 5pages)</li>
                         <li>E-commerce Shopify</li>
                         <li>Custom Website</li>
                         <li>On-going Maintenance</li>
-                    </ul> --->
-                    <a href="/website.html" class="button"> More</a>
-                    {% endfor %}
+                    </ul> 
+                    <a href="/website.html" class="button editable"> More</a>
                 </div>
             </div>
                     <!------- Design-->
             <div class="grid padded ">
                 <div class="col-6_sm-12 padded margin-b-3">
-                    <hr size="2px" width="200px" color="black" /><h2>DESIGN & BRANDING</h2>
-                    <ul>
+                    <hr size="2px" width="200px" color="black" /><h2 class="editable">DESIGN & BRANDING</h2>
+                    <ul class="editable">
                         <li> Branding Kits</li>
                         <li> Business Cards & Email Signatures</li>
                         <li> Website Mockup</li> 
                     </ul>
-                    <a href="/design.html" class="button "> More</a>
+                    <a href="/design.html" class="button editable"> More</a>
                 </div>
                 <div class=" col-6_sm-12 bg-image bg-branding shape-right"></div>
             </div>
             <!------ social media templates-->
             <div class="grid padded column-reverse">
-            <div class=" col-6_sm-12 bg-image bg-socialmedia shape-left "></div>
+            <div class=" col-6_sm-12 bg-image bg-social shape-left "></div>
             <div class="col-6_sm-12 padded">
-                <hr size="2px" width="200px" color="black" /><h2>SOCIAL MEDIA MANAGEMENT</h2>
-                <ul>
+                <hr size="2px" width="200px" color="black" /><h2 class="editable">SOCIAL MEDIA MANAGEMENT</h2>
+                <ul class="editable">
                     <li> Instagram Templates</li>
                     <li> Social Media Management</li>
                 </ul>
-                <a href="/socialmedia.html" class="button"> More</a>
+                <a href="/socialmedia.html" class="button editable"> More</a>
             </div>
         </div>
         </section>
