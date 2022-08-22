@@ -611,8 +611,8 @@ background-position: cover;}
   background-position: center;
 }
 
-.bg-socialmedia {
-    background-image: url('/images/socialmedia.webp');
+.bg-social{
+    background-image: url('/images/social.jpg');
     background-position:center;
  }
 .bg-website {
