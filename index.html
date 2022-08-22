@@ -14,10 +14,12 @@ _comments:
   title: Max 70 characters
   social_image: landscape 1200 x 600px
 service:
--  heading: Big Sale
-   description: Exciting things are happening
-   list-html: 13th Jan
-
+  - heading: WEBSITE
+    description: All our website are Responsive to Tablets & Phones.
+    list-html: >-
+      <ul><li>Single page Website</li><li>Window Shop ( 5
+      pages)</li><li>E-Commerce Shopify</li><li>Custom Website</li><li>On-going
+      Maintenance</li></ul>
 ---
 <!-------------- Banner Section------->
         <section class=" grid bg-image bg-palm padded tall-70">
@@ -40,7 +42,7 @@ service:
                 <div class=" col-6_sm-12 bg-image bg-responsive shape-left"></div>
                 {% for item in page.service %}
                 <div class="col-6_sm-12 padded">
-                    <hr size="2px" width="200px" color="black"><h2>{{item.heading}}</h2>
+                    <hr size="2px" width="200px" color="black" /><h2>{{item.heading}}</h2>
                     <p>{{item.description}}</p>
                     <ul>{{item.list-html}}</ul>
                    <!---- <hr size="2px" width="200px" color="black" /><h2>WEBSITE</h2>
