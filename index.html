@@ -17,6 +17,7 @@ service:
 -  heading: Big Sale
    description: Exciting things are happening
    list-html: 13th Jan
+   featured_image: /images/responsive.png
 
 ---
 <!-------------- Banner Section------->
@@ -37,8 +38,9 @@ service:
 
                 <!----- Custume website-->
                 <div class="grid padded column-reverse">
-                <div class=" col-6_sm-12 bg-image bg-responsive shape-left"></div>
-                {% for item in page.service %}
+                    {% for item in page.service %}
+                <div class=" col-6_sm-12 bg-image shape-left" style="background-image: url('{{item.featured_image}}')"></div>
+                
                 <div class="col-6_sm-12 padded">
                     <hr size="2px" width="200px" color="black"><h2>{{item.heading}}</h2>
                     <p>{{item.description}}</p>
