@@ -565,7 +565,7 @@ footer h4 {
     font-size: 0.8rem;
     opacity: 0.7;
 }
-footer nav i {
+footer .fab {
   font-size: 30px;
 }
 /* Background Position */
