@@ -565,6 +565,9 @@ footer h4 {
     font-size: 0.8rem;
     opacity: 0.7;
 }
+footer nav i {
+  font-size: 30px;
+}
 /* Background Position */
 .bg-pos-t { background-position: top; }
 .bg-pos-b { background-position: bottom; }
