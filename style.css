@@ -615,11 +615,10 @@ background-position: cover;}
 }
 
 .bg-social{
-    background-image: url('/images/social.jpg');
+    background-image: url('/images/social-big.jpg');
     background-position:center;
     background-size: cover;
-    width: 320px;
-    height: 320px;
+
 
  }
 .bg-website {
@@ -637,7 +636,7 @@ background-position: cover;}
   background-position:center;
   height: 450px;}
 .bg-cards {
-  background-image: url('/images/cards.png');
+  background-image: url('/images/card-big.jpg');
   background-position:center;
   height: 450px;
 }
@@ -714,6 +713,15 @@ background-position: cover;}
    .mobile-menu a{ 
      font-size: 20px;
      font-weight: 300;}
+   }
+   .bg-cards {
+     background-image: url('/images/cards.png');
+     width: 320px;
+     height: 320px;
+   }
+   .bg-social {
+     background-image: url('/images/social.jpg');
+     background-size: cover;
    }
  
  /* ------- XS Media Query (36em / 576px) --------------- */ 
