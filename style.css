@@ -618,6 +618,8 @@ background-position: cover;}
     background-image: url('/images/social.jpg');
     background-position:center;
     background-size: cover;
+    max-width: 400px;
+    max-height: 400px;
 
 
  }
@@ -638,7 +640,8 @@ background-position: cover;}
 .bg-cards {
   background-image: url('/images/cards.jpg');
   background-position:center;
-  height: 450px;
+  max-width: 400px;
+  max-height: 400px;
 }
 .bg-webdev {
     background-image: url('/images/webdev.png');
@@ -716,12 +719,14 @@ background-position: cover;}
    }
    .bg-cards {
      background-image: url('/images/cards.jpg');
-     width: 320px;
-     height: 320px;
+     max-width: 400px;
+     max-height: 400px;
    }
    .bg-social {
      background-image: url('/images/social.jpg');
      background-size: cover;
+     max-width: 400px;
+     max-height: 400px;
    }
  
  /* ------- XS Media Query (36em / 576px) --------------- */ 
