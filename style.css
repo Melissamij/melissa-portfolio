@@ -581,6 +581,7 @@ footer .fab {
     background-size: cover;
     background-position: center;
     min-height: 30rem;
+    max-width: 100%;
 
 }
 .logo-transparent {
