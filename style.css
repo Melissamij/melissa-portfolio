@@ -620,18 +620,14 @@ background-position: cover;}
     background-size: cover;
     max-width: 400px;
     max-height: 400px;
-
-
  }
 .bg-website {
     background-image: url('/images/websitetemplate.webp');
     background-position:center;
-
 }
 .bg-macbook { 
   background-image: url('/images/macbook.jpeg');
   background-position:center;
- 
   }
 .bg-responsive {
   background-image: url('/images/responsive.png');
@@ -719,14 +715,9 @@ background-position: cover;}
    }
    .bg-cards {
      background-image: url('/images/cards.jpg');
-     max-width: 400px;
-     max-height: 400px;
    }
    .bg-social {
      background-image: url('/images/social.jpg');
-     background-size: cover;
-     max-width: 400px;
-     max-height: 400px;
    }
  
  /* ------- XS Media Query (36em / 576px) --------------- */ 
