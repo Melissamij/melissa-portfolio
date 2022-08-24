@@ -636,7 +636,7 @@ background-position: cover;}
   background-position:center;
   height: 450px;}
 .bg-cards {
-  background-image: url('/images/card-big.jpg');
+  background-image: url('/images/cards.jpg');
   background-position:center;
   height: 450px;
 }
@@ -715,7 +715,7 @@ background-position: cover;}
      font-weight: 300;}
    }
    .bg-cards {
-     background-image: url('/images/cards.png');
+     background-image: url('/images/cards.jpg');
      width: 320px;
      height: 320px;
    }
