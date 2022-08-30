@@ -616,7 +616,7 @@ background-position: cover;}
 }
 
 .bg-social-image {
-    background-image: url('/images/social.jpg');
+    background-image: url('/images/social-image.png');
     background-position:center;
     background-size: cover;
     max-width: 400px;
