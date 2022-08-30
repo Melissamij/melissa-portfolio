@@ -615,7 +615,7 @@ background-position: cover;}
   background-position: center;
 }
 
-.bg-social{
+.bg-social-image {
     background-image: url('/images/social.jpg');
     background-position:center;
     background-size: cover;
