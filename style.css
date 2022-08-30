@@ -100,6 +100,8 @@ font:
  
 
 }
+.capped-width-wide  {max-width: 1600px; margin: auto;}
+
 .capped-width{
     max-width:1000px;
     margin: auto;
