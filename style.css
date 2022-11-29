@@ -335,34 +335,7 @@ margin-bottom: 0;
 #myBtn:hover {
   background-color: #4A4444;
 }
-/*
-.back-to-top {
-  position: fixed;
-  right: 2rem;
-  bottom: 2rem;
-  cursor: pointer;
-  opacity: 100%;
-  transition: opacity 0.5s;
-  width: 3rem;
-  height: 3rem;
-  color: white;
-  background-color: #767964;
-}
 
-.hidden {
-  display: none;
-  opacity: 0%;
-
-}
-
-.progress-bar {
-  height: 1rem;
-  background: white;
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-*/ 
 /*-------------- Page Service Web collaps  -------*/
 
 
