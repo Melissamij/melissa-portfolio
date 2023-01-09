@@ -686,7 +686,8 @@ background-position: cover;}
    .header-nav { height: 50vh;}
    .mobile-menu a{ 
      font-size: 20px;
-     font-weight: 300;}
+     font-weight: 300;
+     padding: 5%;}
    }
    .bg-cards {
      background-image: url('/images/cards.jpg');
