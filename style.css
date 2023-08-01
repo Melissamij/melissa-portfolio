@@ -682,7 +682,9 @@ form .button {
     max-width: 100%;
   }
 }
-
+.gallery [class*="col-"] {
+  padding: 1%;
+}
 /*----------- Footer-------------- */
 
 footer nav a {
@@ -798,6 +800,25 @@ footer .fab {
 .bg-bio {
   background-image: url("/images/bio.png");
   background-position: center;
+}
+
+.bg-yoga {
+  background-image: url("/images/6.webp");
+}
+.bg-nomade {
+  background-image: url("/images/7.webp");
+}
+.bg-villa {
+  background-image: url("/images/8.webp");
+}
+.bg-negroni {
+  background-image: url("/images/9.webp");
+}
+.bg-jesper {
+  background-image: url("/images/10.webp");
+}
+.bg-hotel {
+  background-image: url("/images/11.webp");
 }
 
 .img-bio {
